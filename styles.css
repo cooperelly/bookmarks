@@ -76,3 +76,30 @@ h4{
 #inspiration p, #useful-links p{
   padding-bottom: 7%;
 }
+
+/* Scroll Button Styling  */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.scroll-to-top{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  border-style: none;
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  opacity: 90%;
+  color: #ffb4b4;
+  background-color: white;
+}
+
+.scroll-to-top:focus {
+    border: none;
+    outline: none;
+    color: #ef4f4f;
+}
