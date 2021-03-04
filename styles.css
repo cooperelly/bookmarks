@@ -1,0 +1,78 @@
+body{
+  margin: 0;
+}
+
+h1{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #393e46;
+  text-align: center;
+  margin-top: 0;
+  padding: 50px 50px;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.stretch{
+  object-fit: cover;
+  width: 50px;
+ height: 57px;
+}
+
+p{
+  width: 300px;
+  line-height: 1.4;
+  font-family: 'Lato', sans-serif;
+  padding-left: 66px;
+  padding-top: 1%;
+}
+
+
+/* Styling the links */
+a:link{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #ffb4b4;
+}
+a:hover{
+  color: #c9485b;
+}
+
+a:visited{
+  color: #ffb4b4;
+  font-weight: bold;
+}
+
+h4{
+  display: inline;
+  padding-left: 15px;
+
+}
+
+/*                 Sections */
+
+#cheat-sheats, #challenges{
+  background-color: #f4f9f9;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 4rem;
+
+}
+
+
+#inspiration, #useful-links{
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 4rem;
+}
+
+
+#inspiration p, #useful-links p{
+  padding-bottom: 7%;
+}
